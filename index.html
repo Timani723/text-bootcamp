@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <!-- head element is not usually displayed within the browser, it is a data about the document -->
+  <head>
+    <title>Full Stack Bootcamp</title>
+    <link rel="icon" type= "image/x-icon" href="/image2.png"/>
+  </head>
+  <!-- body elememt is displayed within the browser -->
+  <body>
+    <!-- absolute image path -->
+    <img 
+    src="https://www.princeton.edu/sites/default/files/styles/half_16_9_1440
+    /public/images/2022/02/KOA_Nassau_2697x1517.jpg?itok=Nd5wwOFu"
+    /><br />
+    <!-- relative image path -->
+    <img width="400px" height="300px" src="images/image.png" alt="My image"
+    /> <br />
+
+    <!-- relative path means going directly to the page -->
+    <a href="new-page.html">New page</a><br />
+    <!-- absolute path -->
+    <a href="/new page.html">New page</a><br />
+    <!-- relative path -->
+    <a href="blogs/index.html">Blogs page</a><br />
+    <!-- can use other url to link to other websites -->
+    <a href="https://google.com">Google</a><br />
+    <!-- opens the website on a blank new page -->
+    <a target="_blank" href="https://google.com">Google</a><br />
+    <!-- opens the website on the same tab -->
+    <a target="_self " href="https://google.com">Google in the same tab</a><br />
+    <!-- if you want someone to contact you and send you an email on a website -->
+    <a href="mailto:timaniabubakar@gmail.com.com">Send Email</a><br />
+    <!-- if you want someone to contact you via call on a website -->
+    <a href="tel:08059303847">Call me</a>
+
+    <!---->>
+    <!--  -->
+    <p>This <b>text is bold.</b> </p>
+    <p>This <i>text is italic</i></p>
+    <p>This <em>text is emphasized</em></p>
+    <p>My favourite color is <del>blue</del> red</p>
+    <p>My favourite color is <del>blue</del> <ins>red</ins></p>
+    <small>This text is smaller</small>
+    <h1>My first heading</h1>
+    <p>My first paragraph</p>
+    <p>This is a <br/> paragraph with a line break </p>
+    <!-- instead of the p- tag it can be used to write in vertical lines e.g poems -->
+    <pre>
+      My Bonnie lies over the ocean.
+      My Bonnie lies over the sea.
+      My Bonnie lies over the ocean.
+      Oh bring back my Bonnie to me.
+    </pre>
+    <!-- writes quotes in block and add the cite its gotten from if needed -->
+    <blockquote
+    cite="https://google.com">
+      HTML is the code that is used to structure a web page and its content.
+      For example, content could be structured within a set of paragraphs, 
+      a list of bulleted points, or using images and data tables.
+    </blockquote>
+    <!-- q tags can be used for quotations inside a paragraph or outside it -->
+    <p>
+      WWF's goal is to: <q>Build a future where people live in harmony with nature.</q>
+    </p>
+    <p><abbr title="Hyper Text Markup Language">HTML</abbr> was created in 1991.</p>
+    <!-- for arabic, writes codes from right to left -->
+    <bdo dir="rtl">This line will be from right to left.</bdo>
+    <p title="i'm a tooltip">This is a paragraph.</p>
+    <!-- block covering an entire element -->
+    <p style="border: 1px solid black">Hello World</p>
+    <div style="border: 1px solid black">Hello World</div><br />
+    <a style="border: 1px solid black" href="https://google.com">Google</a>
+    <a style="border: 1px solid black" href="https:facebook.com">Facebook</a>
+    <!-- div gives more like a block element -->
+    <div>
+      <h2>HTML basics</h2>
+      <p>HTML is a markup language</p>
+    </div>
+    <!-- span gives an inline element -->
+    <p>HTML is a <span style="border: 1px solid black;">markup</span> language</p>
+    <!-- this symbol is an entity for less than -->
+    <p>10 &lt; 20</p>
+    <!-- this symbol gives spaces between words -->
+    <p>a space character &nbsp;here</p>
+    <!-- unordered list items uses bullet points -->
+    <ul>
+      <li>Apples</li>
+      <li>Bananas</li>
+      <li>Oranges</li>
+    </ul>
+    <!-- list inside an unordered list -->
+    <ul>
+      <li>
+        <h4>Fruits</h4>
+        <ul>
+          <li>Apples</li>
+          <li>Bananas</li>
+          <li>Oranges</li>
+        </ul>
+      </li>
+<!-- unordered lists using names -->
+    </ul>
+    <ul>
+      <li>
+        <h4>John Doe</h4>
+        <li>John@gmail.com</li>
+      </li>
+    </ul>
+<!-- unordered list with email  -->
+      <ul>
+       <li>Email:John Doe@gmail.com</li> 
+      <li>Phone:08068224190</li>
+      </ul>
+    
+
+    <!-- ordered list items -->
+    <ol>
+      <li>Preheating the oven</li>
+      <li>Mix the ingredients</li>
+      <li>Bake for 30 minutes</li>
+    </ol>
+<!-- ordered list inside another ordered list -->
+    <ol>
+      <li>
+        <h4>Preparing the dough</h4>
+        <ol>
+          <li>Mix flour and water</li>
+          <li>Kned the dough</li>
+        </ol>
+      </li>
+      <li>
+        <h4>Baking the dough</h4>
+        <ol>
+          <li>Preheat the oven</li>
+          <li>Bake for 25 minutes</li>
+        </ol>
+      </li>
+    </ol>
+<!-- ordered list with details -->
+    <ol>
+      <li>
+        <h4>Prepare the dough</h4>
+        <ol>
+          <li>
+            <h5>Mix flour and water</h5>
+            <p>Directions for mixing flour and water:</p>
+          </li>
+        </ol>
+      </li>
+    </ol>
+<!-- description list;defination list dl, defination term dt,defination description dd -->
+    <dl>
+      <dt>HTML</dt>
+      <dd>Hyper Text Markup Language</dd>
+    </dl>
+    
+    <!-- description list with unordered list in it -->
+    <ul>
+      <li>
+      <h4>Programming Languages</h4>
+      <dl>
+        <dt>Python</dt>
+        <dd>High Level Programming Language</dd>
+      </dl>
+      </li>
+    </ul>
+    <!-- semantic html -->
+    <div>
+      <span><img height="50px" src="images/image3.png"/></span>
+      <ul>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">Tags</a></li>
+      </ul>
+    </div>
+
+    <h1>HTML Blog</h1>
+    <div>
+      <h2>Blog Title One</h2>
+      <p>Blog description</p>
+      <a href="#">Read Blog</a>
+    </div>
+    <div>
+      <h3>Latest Blogs</h3>
+      <ul></ul>
+        <li><a href="#">Blog link 1</a></li>
+        <li><a href="#">Blog link 2</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <section>
+        <h3>Latest Blogs</h3>
+        <ul></ul>
+        <li><a href="#">Blog link 1</a></li>
+        <li><a href="#">Blog link 2</a></li>
+      </section>
+    </main>
+  </body>
+</html>
